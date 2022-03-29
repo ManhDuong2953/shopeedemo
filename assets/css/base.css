@@ -1,0 +1,72 @@
+:root{
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --color-shopee:#f53f2d;
+}
+
+
+
+
+
+button{
+    border: none;
+    padding: 0 15px;
+    height: 34px;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.text-black{
+    color: black;
+}
+
+
+*{
+    box-sizing: inherit;
+}
+
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+    background-color: #f5f5f5;
+}
+
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+
+.grid_column-2{
+    padding: 0 12px;
+    width: 16.6667%;
+}
+
+
+.grid_column-2-4{
+    padding: 0 12px;
+    width: 20%;
+}
+ 
+.grid_column-10{
+    padding: 0 12px;
+    width: 83.3334%;
+}
+
+
+
+@media (max-width: 740px){
+    .grid{
+        width: 740px;
+    }
+}

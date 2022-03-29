@@ -1,0 +1,37 @@
+/* mobile  */
+@media screen and (max-width:739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .box-search{
+        width: 80%;
+    }
+
+    .grid_column-2{
+        display: none;
+    }
+    
+
+
+/* tablet */
+
+@media screen and (min-width: 740px) and (max-width: 1023) {
+    .hide-on-tablet{
+        display: none;
+    }
+
+    .box-search{
+        width: 86%;
+    }
+    
+}
+
+
+/* mobile and tablet  */
+@media screen and (max-width:1023px) {
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    
+}
